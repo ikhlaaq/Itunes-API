@@ -1,0 +1,34 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    background-image: url(https://www.walldevil.com/wallpapers/a71/speaker-colorful-wallpaper-speakers-melting-wallpapers.jpg);
+    text-shadow: 2px 2px green;
+    color: white;
+    text-align: center;
+    }
+    .header {
+      padding: 50px;
+      text-align: center;
+      background-image: url(https://notyouraveragetype.files.wordpress.com/2015/07/itunes-logo-transparent-background-i81.png);
+      background-repeat: no-repeat;
+      color: white;
+      text-shadow: 2px 2px green;
+  }
+  
+/*Itunes API styling*/
+#output div {
+    display: inline-block;
+    border: solid 1px #CCC;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+  }
+  #output img {
+    width: 200px;
+  }
